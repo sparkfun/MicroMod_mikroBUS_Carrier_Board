@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -7333,163 +7333,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="SparkFun-Boards">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-This library contains footprints for SparkFun breakout boards, microcontrollers (Arduino, Particle, Teensy, etc.),  breadboards, non-RF modules, etc.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="QWIIC_BOARD_MOUNT_SMD_STANDOFFS">
-<circle x="-1.27" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-3.81" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="1.27" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="3.81" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-2.54" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-5.08" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="0" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="2.54" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="5.08" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-7.32" y="2.5" radius="0.1414" width="0.4" layer="51"/>
-<circle x="7.32" y="-2.5" radius="0.1414" width="0.4" layer="51"/>
-<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.127" layer="51"/>
-<wire x1="12.7" y1="12.7" x2="12.7" y2="-12.7" width="0.127" layer="51"/>
-<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="12.7" width="0.127" layer="51"/>
-<wire x1="-12.22" y1="1.5" x2="-12.22" y2="-1.5" width="0.254" layer="51"/>
-<wire x1="-9.62" y1="3" x2="-7.97" y2="3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="-2.25" x2="-7.97" y2="-3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="-3" x2="-9.62" y2="-3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="3" x2="-7.97" y2="2.25" width="0.254" layer="51"/>
-<wire x1="12.22" y1="-1.5" x2="12.22" y2="1.5" width="0.254" layer="51"/>
-<wire x1="9.62" y1="-3" x2="7.97" y2="-3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="2.25" x2="7.97" y2="3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="3" x2="9.62" y2="3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="-3" x2="7.97" y2="-2.25" width="0.254" layer="51"/>
-<rectangle x1="-8.29" y1="1.2" x2="-6.94" y2="1.8" layer="51"/>
-<rectangle x1="-8.29" y1="0.2" x2="-6.94" y2="0.8" layer="51"/>
-<rectangle x1="-8.29" y1="-0.8" x2="-6.94" y2="-0.2" layer="51"/>
-<rectangle x1="-8.29" y1="-1.8" x2="-6.94" y2="-1.2" layer="51"/>
-<rectangle x1="-12.29" y1="2.2" x2="-10.3" y2="3.4" layer="51"/>
-<rectangle x1="-12.29" y1="-3.4" x2="-10.3" y2="-2.2" layer="51"/>
-<rectangle x1="6.94" y1="-1.8" x2="8.29" y2="-1.2" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="-0.8" x2="8.29" y2="-0.2" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="0.2" x2="8.29" y2="0.8" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="1.2" x2="8.29" y2="1.8" layer="51" rot="R180"/>
-<rectangle x1="10.3" y1="-3.4" x2="12.29" y2="-2.2" layer="51" rot="R180"/>
-<rectangle x1="10.3" y1="2.2" x2="12.29" y2="3.4" layer="51" rot="R180"/>
-<text x="0" y="0" size="0.508" layer="51" ratio="15" align="center">Qwiic Board</text>
-<pad name="1" x="-10.16" y="10.16" drill="4.2164" diameter="6.1976"/>
-<pad name="2" x="10.16" y="10.16" drill="4.2164" diameter="6.1976"/>
-<pad name="3" x="-10.16" y="-10.16" drill="4.2164" diameter="6.1976"/>
-<pad name="4" x="10.16" y="-10.16" drill="4.2164" diameter="6.1976"/>
-<polygon width="0.1" layer="31">
-<vertex x="-12.314" y="10.56" curve="-74.087907"/>
-<vertex x="-10.56" y="12.314"/>
-<vertex x="-10.56" y="13.16" curve="76.512269"/>
-<vertex x="-13.16" y="10.56"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-9.76" y="12.314" curve="-74.087907"/>
-<vertex x="-8.006" y="10.56"/>
-<vertex x="-7.16" y="10.56" curve="76.512269"/>
-<vertex x="-9.76" y="13.16"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-10.56" y="8.006" curve="-74.087907"/>
-<vertex x="-12.314" y="9.76"/>
-<vertex x="-13.16" y="9.76" curve="76.512269"/>
-<vertex x="-10.56" y="7.16"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-8.006" y="9.76" curve="-74.087907"/>
-<vertex x="-9.76" y="8.006"/>
-<vertex x="-9.76" y="7.16" curve="76.512269"/>
-<vertex x="-7.16" y="9.76"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="10.56" y="12.314" curve="-74.087907"/>
-<vertex x="12.314" y="10.56"/>
-<vertex x="13.16" y="10.56" curve="76.512269"/>
-<vertex x="10.56" y="13.16"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="10.56" y="-8.006" curve="-74.087907"/>
-<vertex x="12.314" y="-9.76"/>
-<vertex x="13.16" y="-9.76" curve="76.512269"/>
-<vertex x="10.56" y="-7.16"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-9.76" y="-8.006" curve="-74.087907"/>
-<vertex x="-8.006" y="-9.76"/>
-<vertex x="-7.16" y="-9.76" curve="76.512269"/>
-<vertex x="-9.76" y="-7.16"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-12.314" y="-9.76" curve="-74.087907"/>
-<vertex x="-10.56" y="-8.006"/>
-<vertex x="-10.56" y="-7.16" curve="76.512269"/>
-<vertex x="-13.16" y="-9.76"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="8.006" y="-9.76" curve="-74.087907"/>
-<vertex x="9.76" y="-8.006"/>
-<vertex x="9.76" y="-7.16" curve="76.512269"/>
-<vertex x="7.16" y="-9.76"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="8.006" y="10.56" curve="-74.087907"/>
-<vertex x="9.76" y="12.314"/>
-<vertex x="9.76" y="13.16" curve="76.512269"/>
-<vertex x="7.16" y="10.56"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="12.314" y="9.76" curve="-74.087907"/>
-<vertex x="10.56" y="8.006"/>
-<vertex x="10.56" y="7.16" curve="76.512269"/>
-<vertex x="13.16" y="9.76"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="12.314" y="-10.56" curve="-74.087907"/>
-<vertex x="10.56" y="-12.314"/>
-<vertex x="10.56" y="-13.16" curve="76.512269"/>
-<vertex x="13.16" y="-10.56"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-8.006" y="-10.56" curve="-74.087907"/>
-<vertex x="-9.76" y="-12.314"/>
-<vertex x="-9.76" y="-13.16" curve="76.512269"/>
-<vertex x="-7.16" y="-10.56"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-10.56" y="-12.314" curve="-74.087907"/>
-<vertex x="-12.314" y="-10.56"/>
-<vertex x="-13.16" y="-10.56" curve="76.512269"/>
-<vertex x="-10.56" y="-13.16"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="9.76" y="-12.314" curve="-74.087907"/>
-<vertex x="8.006" y="-10.56"/>
-<vertex x="7.16" y="-10.56" curve="76.512269"/>
-<vertex x="9.76" y="-13.16"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="9.76" y="8.006" curve="-74.087907"/>
-<vertex x="8.006" y="9.76"/>
-<vertex x="7.16" y="9.76" curve="76.512269"/>
-<vertex x="9.76" y="7.16"/>
-</polygon>
-</package>
-</packages>
-</library>
 <library name="buzzard_labels (1)">
 <packages>
 <package name="#0">
@@ -7900,7 +7743,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-14483" x="46.228" y="4.572" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="46.212" y="5.86833125" size="0.6096" layer="27" rot="R180"/>
 </element>
-<element name="U$5" library="SparkFun-Boards" package="QWIIC_BOARD_MOUNT_SMD_STANDOFFS" value="QWIIC_BOARD_OUTLINESTANDOFF" x="62.23" y="17.78" smashed="yes"/>
 <element name="U$3" library="output" package="3V30" value="" x="5.715" y="33.655" smashed="yes"/>
 <element name="U$1" library="output" package="#3#3V_EN#0" value="" x="15.748" y="16.51" smashed="yes" rot="MR0"/>
 <element name="U$8" library="output" package="#GND#0" value="" x="25.4" y="29.464" smashed="yes" rot="R90"/>

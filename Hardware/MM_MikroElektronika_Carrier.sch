@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -25480,287 +25480,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Boards">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-This library contains footprints for SparkFun breakout boards, microcontrollers (Arduino, Particle, Teensy, etc.),  breadboards, non-RF modules, etc.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="QWIIC_BOARD_MOUNT_HOLES">
-<circle x="-1.27" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-3.81" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="1.27" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="3.81" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-2.54" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-5.08" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="0" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="2.54" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="5.08" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-7.32" y="2.5" radius="0.1414" width="0.4" layer="51"/>
-<circle x="7.32" y="-2.5" radius="0.1414" width="0.4" layer="51"/>
-<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.127" layer="51"/>
-<wire x1="12.7" y1="12.7" x2="12.7" y2="-12.7" width="0.127" layer="51"/>
-<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="12.7" width="0.127" layer="51"/>
-<wire x1="-12.22" y1="1.5" x2="-12.22" y2="-1.5" width="0.254" layer="51"/>
-<wire x1="-9.62" y1="3" x2="-7.97" y2="3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="-2.25" x2="-7.97" y2="-3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="-3" x2="-9.62" y2="-3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="3" x2="-7.97" y2="2.25" width="0.254" layer="51"/>
-<wire x1="12.22" y1="-1.5" x2="12.22" y2="1.5" width="0.254" layer="51"/>
-<wire x1="9.62" y1="-3" x2="7.97" y2="-3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="2.25" x2="7.97" y2="3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="3" x2="9.62" y2="3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="-3" x2="7.97" y2="-2.25" width="0.254" layer="51"/>
-<rectangle x1="-8.29" y1="1.2" x2="-6.94" y2="1.8" layer="51"/>
-<rectangle x1="-8.29" y1="0.2" x2="-6.94" y2="0.8" layer="51"/>
-<rectangle x1="-8.29" y1="-0.8" x2="-6.94" y2="-0.2" layer="51"/>
-<rectangle x1="-8.29" y1="-1.8" x2="-6.94" y2="-1.2" layer="51"/>
-<rectangle x1="-12.29" y1="2.2" x2="-10.3" y2="3.4" layer="51"/>
-<rectangle x1="-12.29" y1="-3.4" x2="-10.3" y2="-2.2" layer="51"/>
-<rectangle x1="6.94" y1="-1.8" x2="8.29" y2="-1.2" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="-0.8" x2="8.29" y2="-0.2" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="0.2" x2="8.29" y2="0.8" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="1.2" x2="8.29" y2="1.8" layer="51" rot="R180"/>
-<rectangle x1="10.3" y1="-3.4" x2="12.29" y2="-2.2" layer="51" rot="R180"/>
-<rectangle x1="10.3" y1="2.2" x2="12.29" y2="3.4" layer="51" rot="R180"/>
-<text x="0" y="0" size="0.508" layer="51" ratio="15" align="center">Qwiic Board</text>
-<hole x="-10.16" y="10.16" drill="3.302"/>
-<hole x="10.16" y="10.16" drill="3.302"/>
-<hole x="10.16" y="-10.16" drill="3.302"/>
-<hole x="-10.16" y="-10.16" drill="3.302"/>
-</package>
-<package name="QWIIC_BOARD_MOUNT_NOHOLES">
-<circle x="-1.27" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-3.81" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="1.27" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="3.81" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-2.54" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-5.08" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="0" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="2.54" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="5.08" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-7.32" y="2.5" radius="0.1414" width="0.4" layer="51"/>
-<circle x="7.32" y="-2.5" radius="0.1414" width="0.4" layer="51"/>
-<circle x="-10.16" y="10.16" radius="1.778" width="0.127" layer="51"/>
-<circle x="10.16" y="10.16" radius="1.778" width="0.127" layer="51"/>
-<circle x="-10.16" y="-10.16" radius="1.778" width="0.127" layer="51"/>
-<circle x="10.16" y="-10.16" radius="1.778" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.127" layer="51"/>
-<wire x1="12.7" y1="12.7" x2="12.7" y2="-12.7" width="0.127" layer="51"/>
-<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="12.7" width="0.127" layer="51"/>
-<wire x1="-12.22" y1="1.5" x2="-12.22" y2="-1.5" width="0.254" layer="51"/>
-<wire x1="-9.62" y1="3" x2="-7.97" y2="3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="-2.25" x2="-7.97" y2="-3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="-3" x2="-9.62" y2="-3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="3" x2="-7.97" y2="2.25" width="0.254" layer="51"/>
-<wire x1="12.22" y1="-1.5" x2="12.22" y2="1.5" width="0.254" layer="51"/>
-<wire x1="9.62" y1="-3" x2="7.97" y2="-3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="2.25" x2="7.97" y2="3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="3" x2="9.62" y2="3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="-3" x2="7.97" y2="-2.25" width="0.254" layer="51"/>
-<rectangle x1="-8.29" y1="1.2" x2="-6.94" y2="1.8" layer="51"/>
-<rectangle x1="-8.29" y1="0.2" x2="-6.94" y2="0.8" layer="51"/>
-<rectangle x1="-8.29" y1="-0.8" x2="-6.94" y2="-0.2" layer="51"/>
-<rectangle x1="-8.29" y1="-1.8" x2="-6.94" y2="-1.2" layer="51"/>
-<rectangle x1="-12.29" y1="2.2" x2="-10.3" y2="3.4" layer="51"/>
-<rectangle x1="-12.29" y1="-3.4" x2="-10.3" y2="-2.2" layer="51"/>
-<rectangle x1="6.94" y1="-1.8" x2="8.29" y2="-1.2" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="-0.8" x2="8.29" y2="-0.2" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="0.2" x2="8.29" y2="0.8" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="1.2" x2="8.29" y2="1.8" layer="51" rot="R180"/>
-<rectangle x1="10.3" y1="-3.4" x2="12.29" y2="-2.2" layer="51" rot="R180"/>
-<rectangle x1="10.3" y1="2.2" x2="12.29" y2="3.4" layer="51" rot="R180"/>
-<text x="0" y="0" size="0.508" layer="51" ratio="15" align="center">Qwiic Board</text>
-<text x="-7.62" y="-12.065" size="0.508" layer="51" ratio="15" align="center">0.13"</text>
-</package>
-<package name="QWIIC_BOARD_MOUNT_SMD_STANDOFFS">
-<circle x="-1.27" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-3.81" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="1.27" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="3.81" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-2.54" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-5.08" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="0" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="2.54" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="5.08" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-7.32" y="2.5" radius="0.1414" width="0.4" layer="51"/>
-<circle x="7.32" y="-2.5" radius="0.1414" width="0.4" layer="51"/>
-<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.127" layer="51"/>
-<wire x1="12.7" y1="12.7" x2="12.7" y2="-12.7" width="0.127" layer="51"/>
-<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="12.7" width="0.127" layer="51"/>
-<wire x1="-12.22" y1="1.5" x2="-12.22" y2="-1.5" width="0.254" layer="51"/>
-<wire x1="-9.62" y1="3" x2="-7.97" y2="3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="-2.25" x2="-7.97" y2="-3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="-3" x2="-9.62" y2="-3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="3" x2="-7.97" y2="2.25" width="0.254" layer="51"/>
-<wire x1="12.22" y1="-1.5" x2="12.22" y2="1.5" width="0.254" layer="51"/>
-<wire x1="9.62" y1="-3" x2="7.97" y2="-3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="2.25" x2="7.97" y2="3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="3" x2="9.62" y2="3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="-3" x2="7.97" y2="-2.25" width="0.254" layer="51"/>
-<rectangle x1="-8.29" y1="1.2" x2="-6.94" y2="1.8" layer="51"/>
-<rectangle x1="-8.29" y1="0.2" x2="-6.94" y2="0.8" layer="51"/>
-<rectangle x1="-8.29" y1="-0.8" x2="-6.94" y2="-0.2" layer="51"/>
-<rectangle x1="-8.29" y1="-1.8" x2="-6.94" y2="-1.2" layer="51"/>
-<rectangle x1="-12.29" y1="2.2" x2="-10.3" y2="3.4" layer="51"/>
-<rectangle x1="-12.29" y1="-3.4" x2="-10.3" y2="-2.2" layer="51"/>
-<rectangle x1="6.94" y1="-1.8" x2="8.29" y2="-1.2" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="-0.8" x2="8.29" y2="-0.2" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="0.2" x2="8.29" y2="0.8" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="1.2" x2="8.29" y2="1.8" layer="51" rot="R180"/>
-<rectangle x1="10.3" y1="-3.4" x2="12.29" y2="-2.2" layer="51" rot="R180"/>
-<rectangle x1="10.3" y1="2.2" x2="12.29" y2="3.4" layer="51" rot="R180"/>
-<text x="0" y="0" size="0.508" layer="51" ratio="15" align="center">Qwiic Board</text>
-<pad name="1" x="-10.16" y="10.16" drill="4.2164" diameter="6.1976"/>
-<pad name="2" x="10.16" y="10.16" drill="4.2164" diameter="6.1976"/>
-<pad name="3" x="-10.16" y="-10.16" drill="4.2164" diameter="6.1976"/>
-<pad name="4" x="10.16" y="-10.16" drill="4.2164" diameter="6.1976"/>
-<polygon width="0.1" layer="31">
-<vertex x="-12.314" y="10.56" curve="-74.087907"/>
-<vertex x="-10.56" y="12.314"/>
-<vertex x="-10.56" y="13.16" curve="76.512269"/>
-<vertex x="-13.16" y="10.56"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-9.76" y="12.314" curve="-74.087907"/>
-<vertex x="-8.006" y="10.56"/>
-<vertex x="-7.16" y="10.56" curve="76.512269"/>
-<vertex x="-9.76" y="13.16"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-10.56" y="8.006" curve="-74.087907"/>
-<vertex x="-12.314" y="9.76"/>
-<vertex x="-13.16" y="9.76" curve="76.512269"/>
-<vertex x="-10.56" y="7.16"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-8.006" y="9.76" curve="-74.087907"/>
-<vertex x="-9.76" y="8.006"/>
-<vertex x="-9.76" y="7.16" curve="76.512269"/>
-<vertex x="-7.16" y="9.76"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="10.56" y="12.314" curve="-74.087907"/>
-<vertex x="12.314" y="10.56"/>
-<vertex x="13.16" y="10.56" curve="76.512269"/>
-<vertex x="10.56" y="13.16"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="10.56" y="-8.006" curve="-74.087907"/>
-<vertex x="12.314" y="-9.76"/>
-<vertex x="13.16" y="-9.76" curve="76.512269"/>
-<vertex x="10.56" y="-7.16"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-9.76" y="-8.006" curve="-74.087907"/>
-<vertex x="-8.006" y="-9.76"/>
-<vertex x="-7.16" y="-9.76" curve="76.512269"/>
-<vertex x="-9.76" y="-7.16"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-12.314" y="-9.76" curve="-74.087907"/>
-<vertex x="-10.56" y="-8.006"/>
-<vertex x="-10.56" y="-7.16" curve="76.512269"/>
-<vertex x="-13.16" y="-9.76"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="8.006" y="-9.76" curve="-74.087907"/>
-<vertex x="9.76" y="-8.006"/>
-<vertex x="9.76" y="-7.16" curve="76.512269"/>
-<vertex x="7.16" y="-9.76"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="8.006" y="10.56" curve="-74.087907"/>
-<vertex x="9.76" y="12.314"/>
-<vertex x="9.76" y="13.16" curve="76.512269"/>
-<vertex x="7.16" y="10.56"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="12.314" y="9.76" curve="-74.087907"/>
-<vertex x="10.56" y="8.006"/>
-<vertex x="10.56" y="7.16" curve="76.512269"/>
-<vertex x="13.16" y="9.76"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="12.314" y="-10.56" curve="-74.087907"/>
-<vertex x="10.56" y="-12.314"/>
-<vertex x="10.56" y="-13.16" curve="76.512269"/>
-<vertex x="13.16" y="-10.56"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-8.006" y="-10.56" curve="-74.087907"/>
-<vertex x="-9.76" y="-12.314"/>
-<vertex x="-9.76" y="-13.16" curve="76.512269"/>
-<vertex x="-7.16" y="-10.56"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-10.56" y="-12.314" curve="-74.087907"/>
-<vertex x="-12.314" y="-10.56"/>
-<vertex x="-13.16" y="-10.56" curve="76.512269"/>
-<vertex x="-10.56" y="-13.16"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="9.76" y="-12.314" curve="-74.087907"/>
-<vertex x="8.006" y="-10.56"/>
-<vertex x="7.16" y="-10.56" curve="76.512269"/>
-<vertex x="9.76" y="-13.16"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="9.76" y="8.006" curve="-74.087907"/>
-<vertex x="8.006" y="9.76"/>
-<vertex x="7.16" y="9.76" curve="76.512269"/>
-<vertex x="9.76" y="7.16"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="QWIIC_BOARD_FOOTPRINT">
-<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<text x="0.127" y="0" size="1.016" layer="94" ratio="15" align="center">Qwiic Board
-Outline</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="QWIIC_BOARD_OUTLINE">
-<description>Standard Outline of a Qwiic Board. Good for defining a spot on shields and board areas in which to mount a Qwiic Board.</description>
-<gates>
-<gate name="G$1" symbol="QWIIC_BOARD_FOOTPRINT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="H" package="QWIIC_BOARD_MOUNT_HOLES">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NH" package="QWIIC_BOARD_MOUNT_NOHOLES">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="STANDOFF" package="QWIIC_BOARD_MOUNT_SMD_STANDOFFS">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -25860,7 +25579,6 @@ Outline</text>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND26" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U$5" library="SparkFun-Boards" deviceset="QWIIC_BOARD_OUTLINE" device="STANDOFF"/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="V_USB_2" device=""/>
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="V_USB_2" device=""/>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_09" device="NO_SILK"/>
@@ -25905,7 +25623,6 @@ Close only if you know what you're doing.</text>
 <text x="121.92" y="104.14" size="2.54" layer="94" font="vector" align="center">Qwiic Connector</text>
 <text x="210.82" y="104.14" size="2.54" layer="94" font="vector" align="center">Buttons</text>
 <text x="259.08" y="180.34" size="2.54" layer="94" font="vector" align="center">Battery Charger</text>
-<text x="289.56" y="106.68" size="2.54" layer="94" font="vector" align="center">Qwiic Stand offs</text>
 <wire x1="254" y1="111.76" x2="330.2" y2="111.76" width="0.2032" layer="97" style="longdash"/>
 <wire x1="330.2" y1="111.76" x2="330.2" y2="38.1" width="0.2032" layer="97" style="longdash"/>
 <wire x1="330.2" y1="111.76" x2="330.2" y2="132.08" width="0.2032" layer="97" style="longdash"/>
@@ -26195,7 +25912,6 @@ holes to measure current draw</text>
 <instance part="GND26" gate="1" x="210.82" y="10.16" smashed="yes">
 <attribute name="VALUE" x="210.82" y="9.906" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U$5" gate="G$1" x="289.56" y="60.96" smashed="yes"/>
 <instance part="SUPPLY15" gate="G$1" x="396.24" y="147.32" smashed="yes">
 <attribute name="VALUE" x="396.24" y="150.114" size="1.778" layer="96" align="bottom-center"/>
 </instance>
