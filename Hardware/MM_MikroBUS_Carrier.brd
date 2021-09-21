@@ -11703,7 +11703,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="74.93" y="-1.27" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U$2" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.35" value="" x="66.04" y="33.655" smashed="yes"/>
-<element name="S3" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_5.2MM" value="BOOT" x="33.147" y="3.302" smashed="yes" rot="R180">
+<element name="S3" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_5.2MM" value="MIK_RESET" x="33.147" y="3.302" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.147" y="0.635" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="SWCH-14139" x="33.147" y="3.302" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="33.147" y="5.969" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
