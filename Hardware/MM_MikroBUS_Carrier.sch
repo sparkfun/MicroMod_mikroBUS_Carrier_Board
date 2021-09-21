@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -28516,7 +28516,6 @@ holes to measure current draw</text>
 </instance>
 <instance part="MEAS" gate="JP1" x="363.22" y="246.38" smashed="yes">
 <attribute name="NAME" x="361.188" y="248.158" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="360.68" y="243.84" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="GND6" gate="1" x="279.4" y="231.14" smashed="yes">
 <attribute name="VALUE" x="279.4" y="230.886" size="1.778" layer="96" align="top-center"/>
