@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -32,7 +32,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -40,7 +40,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -12184,7 +12184,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </signal>
 <signal name="SPI_SCK">
 <contactref element="J15" pad="57"/>
-<wire x1="20.828" y1="22.606" x2="20.828" y2="22.6187" width="0.2032" layer="16"/>
 <via x="20.828" y="22.6187" extent="1-16" drill="0.3048"/>
 <wire x1="20.828" y1="22.6187" x2="19.89083125" y2="22.6187" width="0.2032" layer="1"/>
 <wire x1="19.89083125" y1="22.6187" x2="19.80213125" y2="22.53" width="0.2032" layer="1"/>
@@ -12372,11 +12371,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </mfgpreviewcolors>
 <errors>
 <approved hash="5,16,418dc33ef0600a2c"/>
-<approved hash="5,1,eaccd1d4b294f9e9"/>
-<approved hash="5,1,cd0111d332909e27"/>
-<approved hash="5,16,47d871a5d38aacbc"/>
-<approved hash="19,16,3d429829b2d56e7e"/>
-<approved hash="19,16,4501e33d280e74c8"/>
+<approved hash="5,1,b2e6717ae8c59e27"/>
+<approved hash="5,1,9528317ae8c1f9e9"/>
+<approved hash="5,16,2f97bc41fce749b3"/>
+<approved hash="19,16,93ca6d01c5ab6097"/>
+<approved hash="19,16,0054b5f749b59595"/>
 </errors>
 </board>
 </drawing>
