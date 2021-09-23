@@ -28213,7 +28213,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3dinstance package3d_urn="urn:adsk.eagle:package:18494266/4"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-16267" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
