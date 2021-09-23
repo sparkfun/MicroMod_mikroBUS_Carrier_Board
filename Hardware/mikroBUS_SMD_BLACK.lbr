@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -18,9 +18,9 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -2543,8 +2543,8 @@
 <wire x1="-0.75438125" y1="10.378440625" x2="-0.57658125" y2="10.378440625" width="0.025" layer="21"/>
 <hole x="-11.914403125" y="-10.541" drill="1.399996875"/>
 <hole x="11.2856" y="-10.541" drill="1.399996875"/>
-<text x="0" y="8.89" size="1.27" layer="25">&gt;NAME</text>
-<text x="19.05" y="8.89" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-13.97" y="16.51" size="0.6096" layer="25" ratio="20">&gt;NAME</text>
+<text x="-14.224" y="-15.875" size="0.6096" layer="27" ratio="20">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -2577,8 +2577,8 @@
 <pin name="SDA" x="15.24" y="-2.54" length="middle" rot="R180"/>
 <pin name="+5V" x="15.24" y="-5.08" length="middle" rot="R180"/>
 <pin name="GND2" x="15.24" y="-7.62" length="middle" rot="R180"/>
-<text x="-10.16" y="22.86" size="1.27" layer="95">&gt;NAME</text>
-<text x="2.54" y="22.86" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-10.16" y="21.082" size="0.6096" layer="95" ratio="20">&gt;NAME</text>
+<text x="-10.16" y="-13.97" size="0.6096" layer="96" ratio="20">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>

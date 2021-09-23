@@ -28146,8 +28146,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-0.75438125" y1="10.378440625" x2="-0.57658125" y2="10.378440625" width="0.025" layer="21"/>
 <hole x="-11.914403125" y="-10.541" drill="1.399996875"/>
 <hole x="11.2856" y="-10.541" drill="1.399996875"/>
-<text x="0" y="8.89" size="1.27" layer="25">&gt;NAME</text>
-<text x="19.05" y="8.89" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-13.97" y="16.51" size="0.6096" layer="25" ratio="20">&gt;NAME</text>
+<text x="-14.224" y="-15.875" size="0.6096" layer="27" ratio="20">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -28180,8 +28180,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="SDA" x="15.24" y="-2.54" length="middle" rot="R180"/>
 <pin name="+5V" x="15.24" y="-5.08" length="middle" rot="R180"/>
 <pin name="GND2" x="15.24" y="-7.62" length="middle" rot="R180"/>
-<text x="-10.16" y="22.86" size="1.27" layer="95">&gt;NAME</text>
-<text x="2.54" y="22.86" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-10.16" y="21.082" size="0.6096" layer="95" ratio="20">&gt;NAME</text>
+<text x="-10.16" y="-13.97" size="0.6096" layer="96" ratio="20">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
