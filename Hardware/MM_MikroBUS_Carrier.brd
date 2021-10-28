@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -18,9 +18,9 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -11680,10 +11680,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$32" library="output" package="#0" value="" x="7.747" y="27.813" smashed="yes"/>
 <element name="U$36" library="buzzard_labels (1)" package="#0" value="" x="1.143" y="17.399" smashed="yes"/>
 <element name="U$37" library="buzzard_labels (1)" package="#0" value="" x="7.366" y="23.495" smashed="yes"/>
-<element name="U$17" library="output" package="#D0#0" value="" x="30.48" y="30.48" smashed="yes" rot="R90"/>
-<element name="U$18" library="output" package="#D0#0" value="" x="30.48" y="30.48" smashed="yes" rot="MR90"/>
-<element name="U$20" library="output" package="#D1#0" value="" x="33.02" y="30.734" smashed="yes" rot="R90"/>
-<element name="U$21" library="output" package="#D1#0" value="" x="33.02" y="30.734" smashed="yes" rot="MR90"/>
+<element name="U$17" library="output" package="#D0#0" value="" x="33.02" y="30.48" smashed="yes" rot="R90"/>
+<element name="U$18" library="output" package="#D0#0" value="" x="33.02" y="30.48" smashed="yes" rot="MR90"/>
+<element name="U$20" library="output" package="#D1#0" value="" x="30.48" y="30.734" smashed="yes" rot="R90"/>
+<element name="U$21" library="output" package="#D1#0" value="" x="30.48" y="30.734" smashed="yes" rot="MR90"/>
 <element name="J6" library="SparkFun-Connectors" package="1X09_NO_SILK" value="" x="22.86" y="34.29" smashed="yes">
 <attribute name="NAME" x="21.59" y="35.687" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="21.59" y="32.258" size="0.6096" layer="27" font="vector" ratio="20"/>
