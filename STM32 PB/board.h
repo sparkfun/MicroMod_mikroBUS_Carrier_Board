@@ -55,8 +55,8 @@ extern "C"{
 #define BOARD_NAME "SparkFun MicroMod STM32 Processor Board"
 
 /// Mapping
-#define TFT_RST  // Define this pin.
-#define TFT_CS HAL_PIN_NC // Define this pin.
+#define TFT_RST NRST// TODO: not sure if this is right...
+#define TFT_CS PC4
 #define TFT_D_C HAL_PIN_NC // Define this pin.
 #define TFT_RD HAL_PIN_NC // Define this pin.
 #define TFT_WR HAL_PIN_NC // Define this pin.
@@ -89,14 +89,17 @@ extern "C"{
 #define TFT_16BIT_DATA_PORT_CH1 HAL_PORT_NC // If TFT data lines are 8-bits wide, define "HAL_PORT_NC" (e.g., "#define TFT_16BIT_DATA_PORT_CH0 HAL_PORT_NC"), else define this port.
 #define TFT_16BIT_DATA_PORT_CH1_MASK 0x0000 // If TFT data lines are 8-bits wide, define "0x0000" (e.g., "#define TFT_16BIT_DATA_PORT_CH0_MASK 0x0000"), else define mask for this port.
 
+// TODO: this thing does not support capacitive touch, right?!
 #define CTP_SDA HAL_PIN_NC // If TFT device does not have capacitive touch capabilities, do not remove "HAL_PORT_NC" definition, else define this pin.
 #define CTP_SCL HAL_PIN_NC // If TFT device does not have capacitive touch capabilities, do not remove "HAL_PORT_NC" definition, else define this pin.
 #define CTP_INT HAL_PIN_NC // If TFT device does not have capacitive touch capabilities, do not remove "HAL_PORT_NC" definition, else define this pin.
 #define CTP_WAKE HAL_PIN_NC // If TFT device does not have capacitive touch capabilities, do not remove "HAL_PORT_NC" definition, else define this pin.
 #define CTP_RST HAL_PIN_NC // If TFT device does not have capacitive touch capabilities, do not remove "HAL_PORT_NC" definition, else define this pin.
 
-#define USB_UART_TX HAL_PIN_NC // Define this pin if using logger.
-#define USB_UART_RX HAL_PIN_NC // Define this pin if using logger.
+#define USB_UART_TX PA2
+#define USB_UART_RX PA3
+
+#define LED_1 PA15
 
 #ifdef __cplusplus
 }
