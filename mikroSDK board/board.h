@@ -54,9 +54,23 @@ extern "C"{
 
 #define BOARD_NAME "SparkFun MicroMod STM32 Processor Board"
 
-/// Mapping
-#define TFT_RST NRST// TODO: not sure if this is right...
-#define TFT_CS PC4
+// Mapping
+#define MIKROBUS_1 1
+#define MIKROBUS_1_AN PC5
+#define MIKROBUS_1_RST PC1
+#define MIKROBUS_1_CS PC4
+#define MIKROBUS_1_SCK PA5
+#define MIKROBUS_1_MISO PA6
+#define MIKROBUS_1_MOSI PA7
+#define MIKROBUS_1_PWM PC6
+#define MIKROBUS_1_INT PC0
+#define MIKROBUS_1_RX PA3
+#define MIKROBUS_1_TX PA2
+#define MIKROBUS_1_SCL PB6
+#define MIKROBUS_1_SDA PB7
+
+#define TFT_RST HAL_PIN_NC  // Define this pin.
+#define TFT_CS HAL_PIN_NC   // Define this pin.
 #define TFT_D_C HAL_PIN_NC // Define this pin.
 #define TFT_RD HAL_PIN_NC // Define this pin.
 #define TFT_WR HAL_PIN_NC // Define this pin.
@@ -89,17 +103,15 @@ extern "C"{
 #define TFT_16BIT_DATA_PORT_CH1 HAL_PORT_NC // If TFT data lines are 8-bits wide, define "HAL_PORT_NC" (e.g., "#define TFT_16BIT_DATA_PORT_CH0 HAL_PORT_NC"), else define this port.
 #define TFT_16BIT_DATA_PORT_CH1_MASK 0x0000 // If TFT data lines are 8-bits wide, define "0x0000" (e.g., "#define TFT_16BIT_DATA_PORT_CH0_MASK 0x0000"), else define mask for this port.
 
-// TODO: this thing does not support capacitive touch, right?!
 #define CTP_SDA HAL_PIN_NC // If TFT device does not have capacitive touch capabilities, do not remove "HAL_PORT_NC" definition, else define this pin.
 #define CTP_SCL HAL_PIN_NC // If TFT device does not have capacitive touch capabilities, do not remove "HAL_PORT_NC" definition, else define this pin.
 #define CTP_INT HAL_PIN_NC // If TFT device does not have capacitive touch capabilities, do not remove "HAL_PORT_NC" definition, else define this pin.
 #define CTP_WAKE HAL_PIN_NC // If TFT device does not have capacitive touch capabilities, do not remove "HAL_PORT_NC" definition, else define this pin.
 #define CTP_RST HAL_PIN_NC // If TFT device does not have capacitive touch capabilities, do not remove "HAL_PORT_NC" definition, else define this pin.
 
-#define USB_UART_TX PA2
-#define USB_UART_RX PA3
-
-#define LED_1 PA15
+// TODO: not sure about this...
+#define USB_UART_TX PA11
+#define USB_UART_RX PA12
 
 #ifdef __cplusplus
 }
