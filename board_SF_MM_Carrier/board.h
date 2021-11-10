@@ -41,6 +41,8 @@
  * @brief Main board pin mapping.
  */
 
+#include "mikrobus.h"
+
 #ifndef _BOARD_H_
 #define _BOARD_H_
 
@@ -66,8 +68,8 @@ extern "C"{
 #define MIKROBUS_1_INT PC0
 #define MIKROBUS_1_RX PA3
 #define MIKROBUS_1_TX PA2
-#define MIKROBUS_1_SCL PB6
-#define MIKROBUS_1_SDA PB7
+#define MIKROBUS_1_SCL PB10
+#define MIKROBUS_1_SDA PB11
 
 #define TFT_RST HAL_PIN_NC  // Define this pin.
 #define TFT_CS HAL_PIN_NC   // Define this pin.
