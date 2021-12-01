@@ -40,7 +40,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -199,7 +199,7 @@
 <wire x1="0" y1="35.56" x2="85.09" y2="35.56" width="0.2032" layer="20"/>
 <wire x1="85.09" y1="35.56" x2="85.09" y2="0" width="0.2032" layer="20"/>
 <wire x1="85.09" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
-<text x="7.62" y="1.016" size="1.27" layer="16" font="vector" ratio="20" rot="MR180" align="center">v01</text>
+<text x="7.62" y="1.016" size="1.27" layer="16" font="vector" ratio="20" rot="MR180" align="center">v10</text>
 <wire x1="27.94" y1="28.829" x2="44.185" y2="28.829" width="0.2032" layer="21"/>
 <wire x1="44.185" y1="28.829" x2="44.185" y2="6.731" width="0.2032" layer="21"/>
 <wire x1="44.185" y1="6.731" x2="27.94" y2="6.731" width="0.2032" layer="21"/>
@@ -210,14 +210,16 @@
 <dimension x1="83.82" y1="0" x2="55.499" y2="6.477" x3="87.63" y3="3.2385" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <text x="93.091" y="22.86" size="1.778" layer="47" font="vector" ratio="15" rot="R270">in</text>
 <text x="85.344" y="16.637" size="1.778" layer="47" font="vector" ratio="15" rot="R270">in</text>
-<text x="45.974" y="38.735" size="1.778" layer="47" font="vector" ratio="15">in</text>
-<text x="45.974" y="43.688" size="1.778" layer="47" font="vector" ratio="15">in</text>
+<text x="45.974" y="45.085" size="1.778" layer="47" font="vector" ratio="15">in</text>
+<text x="45.974" y="41.148" size="1.778" layer="47" font="vector" ratio="15">in</text>
 <dimension x1="0" y1="0" x2="6.223" y2="10.668" x3="-2.54" y3="5.334" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="0" y1="0" x2="3.81" y2="25.4" x3="-6.35" y3="12.7" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <text x="-6.858" y="16.129" size="1.778" layer="47" font="vector" ratio="15" rot="R90">in</text>
 <text x="-3.175" y="8.509" size="1.778" layer="47" font="vector" ratio="15" rot="R90">in</text>
-<dimension x1="2.54" y1="33.02" x2="82.55" y2="33.02" x3="42.545" y3="38.1" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="0" y1="35.56" x2="85.09" y2="35.56" x3="42.545" y3="43.18" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="33.02" x2="82.55" y2="33.02" x3="42.545" y3="40.64" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="35.56" x2="85.09" y2="35.56" x3="42.545" y3="44.45" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="35.56" x2="22.86" y2="35.56" x3="11.43" y3="36.83" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<text x="14.224" y="37.465" size="1.778" layer="47" font="vector" ratio="15">in</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -1663,6 +1665,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="3.175" y1="-1.715" x2="3.175" y2="1.715" width="0.127" layer="21"/>
 <text x="-1.5748" y="1.9304" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.8288" y="-2.4638" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+<package name="PAD.03X.03">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.03" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.03" x 0.03"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="0.762" dy="0.762" layer="1" roundness="100" cream="no"/>
 </package>
 </packages>
 </library>
@@ -13620,6 +13633,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="NAME" x="30.1752" y="4.9784" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="29.9212" y="0.5842" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
+<element name="SWDCK" library="SparkFun-Connectors" package="PAD.03X.03" value="TEST-POINT3" x="33.02" y="6.35" smashed="yes"/>
+<element name="SWDIO" library="SparkFun-Connectors" package="PAD.03X.03" value="TEST-POINT3" x="30.48" y="6.35" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -14281,9 +14296,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="21.59" y="14.351" extent="1-16" drill="0.3048"/>
 <wire x1="21.59" y1="14.351" x2="31.369" y2="14.351" width="0.2032" layer="16"/>
 <via x="31.369" y="14.351" extent="1-16" drill="0.3048"/>
-<wire x1="31.369" y1="14.351" x2="31.369" y2="7.112" width="0.2032" layer="1"/>
-<wire x1="31.369" y1="7.112" x2="29.21" y2="4.953" width="0.2032" layer="1"/>
-<wire x1="29.21" y1="4.953" x2="29.21" y2="3.683" width="0.2032" layer="1"/>
+<wire x1="31.369" y1="14.351" x2="31.369" y2="6.35" width="0.2032" layer="1"/>
+<wire x1="31.369" y1="6.35" x2="31.369" y2="5.842" width="0.2032" layer="1"/>
+<wire x1="31.369" y1="5.842" x2="29.21" y2="3.683" width="0.2032" layer="1"/>
+<contactref element="SWDIO" pad="1"/>
+<wire x1="30.48" y1="6.35" x2="31.369" y2="6.35" width="0.2032" layer="1"/>
 </signal>
 <signal name="SWDCK">
 <contactref element="J9" pad="4"/>
@@ -14292,13 +14309,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="20.007" y1="13.53" x2="20.193" y2="13.716" width="0.2032" layer="1"/>
 <wire x1="20.193" y1="13.716" x2="20.955" y2="13.716" width="0.2032" layer="1"/>
 <via x="20.955" y="13.716" extent="1-16" drill="0.3048"/>
-<wire x1="32.385" y1="13.716" x2="20.955" y2="13.716" width="0.2032" layer="16"/>
-<via x="32.4739" y="13.589" extent="1-16" drill="0.3048"/>
-<wire x1="32.4739" y1="13.589" x2="32.4739" y2="6.9469" width="0.2032" layer="1"/>
-<wire x1="32.4739" y1="6.9469" x2="30.48" y2="4.953" width="0.2032" layer="1"/>
-<wire x1="30.48" y1="4.953" x2="30.48" y2="3.683" width="0.2032" layer="1"/>
-<wire x1="32.4739" y1="13.589" x2="32.385" y2="13.6779" width="0.2032" layer="16"/>
-<wire x1="32.385" y1="13.6779" x2="32.385" y2="13.716" width="0.2032" layer="16"/>
+<wire x1="32.2199" y1="13.716" x2="20.955" y2="13.716" width="0.2032" layer="16"/>
+<via x="32.0929" y="13.589" extent="1-16" drill="0.3048"/>
+<wire x1="32.0929" y1="13.589" x2="32.0929" y2="6.35" width="0.2032" layer="1"/>
+<wire x1="32.0929" y1="6.35" x2="32.0929" y2="5.9309" width="0.2032" layer="1"/>
+<wire x1="32.0929" y1="5.9309" x2="30.48" y2="4.318" width="0.2032" layer="1"/>
+<wire x1="30.48" y1="4.318" x2="30.48" y2="3.683" width="0.2032" layer="1"/>
+<wire x1="32.0929" y1="13.589" x2="32.2199" y2="13.716" width="0.2032" layer="16"/>
+<contactref element="SWDCK" pad="1"/>
+<wire x1="32.0929" y1="6.35" x2="33.02" y2="6.35" width="0.2032" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
