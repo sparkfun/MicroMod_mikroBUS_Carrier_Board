@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -40,7 +40,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -204,8 +204,8 @@
 <wire x1="44.185" y1="28.829" x2="44.185" y2="6.731" width="0.2032" layer="21"/>
 <wire x1="44.185" y1="6.731" x2="27.94" y2="6.731" width="0.2032" layer="21"/>
 <text x="36.83" y="-21.59" size="1.778" layer="51" font="vector" ratio="15">Priyanka Makin</text>
-<dimension x1="80.01" y1="35.56" x2="80.01" y2="0" x3="95.25" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="55.499" y1="29.718" x2="55.88" y2="0" x3="91.44" y3="14.859" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="80.01" y1="35.56" x2="80.01" y2="0" x3="99.06" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="55.499" y1="29.718" x2="55.88" y2="0" x3="96.52" y3="14.859" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="83.82" y1="0" x2="55.499" y2="6.477" x3="87.63" y3="3.2385" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <text x="0.254" y="52.705" size="1.778" layer="47" font="vector" ratio="15">All units in inches.</text>
 <dimension x1="0" y1="0" x2="6.223" y2="10.668" x3="-2.54" y3="5.334" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
@@ -240,6 +240,9 @@
 <wire x1="70.104" y1="24.13" x2="70.104" y2="11.43" width="0.254" layer="21"/>
 <wire x1="56.515" y1="17.78" x2="72.39" y2="17.78" width="0.254" layer="21"/>
 <dimension x1="66.04" y1="17.78" x2="0" y2="17.78" x3="33.02" y3="40.64" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="66.04" y1="17.78" x2="66.04" y2="0" x3="92.71" y3="8.89" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="40.64" y1="5.08" x2="0" y2="5.08" x3="20.32" y3="-3.81" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="48.768" y1="4.572" x2="0" y2="4.445" x3="24.415425" y3="-7.559725" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
