@@ -46,8 +46,8 @@
 //////////////////////////
 // MicroOLED Definition //
 //////////////////////////
-#define PIN_RESET D1  // Connect RST to pin INT on the mikroBUS socket
-#define PIN_DC    D0  // Connect DC to pin PWM on the mikroBUS socket
+#define PIN_RESET D1  // Connect RST to pin RST on the mikroBUS socket
+#define PIN_DC    D0  // Connect DC to pin INT on the mikroBUS socket
 #define PIN_CS    D29 // Connect CS to pin CS on the mikroBUS socket
 #define DC_JUMPER 0 // Set to either 0 (default) or 1 based on jumper, matching the value of the DC Jumper
 // Also connect pin 13 to SCK and pin 11 to MOSI
