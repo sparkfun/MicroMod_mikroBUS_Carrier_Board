@@ -203,7 +203,7 @@
 <wire x1="27.94" y1="28.829" x2="44.185" y2="28.829" width="0.2032" layer="21"/>
 <wire x1="44.185" y1="28.829" x2="44.185" y2="6.731" width="0.2032" layer="21"/>
 <wire x1="44.185" y1="6.731" x2="27.94" y2="6.731" width="0.2032" layer="21"/>
-<text x="36.83" y="-21.59" size="1.778" layer="51" font="vector" ratio="15">Priyanka Makin</text>
+<text x="36.83" y="-33.02" size="1.778" layer="51" font="vector" ratio="15">Priyanka Makin</text>
 <dimension x1="80.01" y1="35.56" x2="80.01" y2="0" x3="97.79" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <text x="44.704" y="40.005" size="1.778" layer="47" font="vector" ratio="15">All units in inches.</text>
 <dimension x1="0" y1="35.56" x2="85.09" y2="35.56" x3="42.545" y3="48.26" textsize="1.778" textratio="15" layer="47" unit="inch"/>
@@ -16029,9 +16029,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </pass>
 </autorouter>
 <elements>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="8.89" y="-21.59" smashed="yes">
-<attribute name="DESIGNER" value="" x="8.89" y="-21.59" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="REV" value="" x="8.89" y="-21.59" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="8.89" y="-33.02" smashed="yes">
+<attribute name="DESIGNER" value="" x="8.89" y="-33.02" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="REV" value="" x="8.89" y="-33.02" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" package="USB-C-16P-2LAYER-PADS" value="" x="6.223" y="10.668" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.683" y="10.668" size="0.762" layer="25" rot="R270" align="center"/>
