@@ -203,16 +203,11 @@
 <wire x1="27.94" y1="28.829" x2="44.185" y2="28.829" width="0.2032" layer="21"/>
 <wire x1="44.185" y1="28.829" x2="44.185" y2="6.731" width="0.2032" layer="21"/>
 <wire x1="44.185" y1="6.731" x2="27.94" y2="6.731" width="0.2032" layer="21"/>
-<text x="36.83" y="-21.59" size="1.778" layer="51" font="vector" ratio="15">Priyanka Makin</text>
-<dimension x1="80.01" y1="35.56" x2="80.01" y2="0" x3="99.06" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="55.499" y1="29.718" x2="55.88" y2="0" x3="96.52" y3="14.859" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="83.82" y1="0" x2="55.499" y2="6.477" x3="87.63" y3="3.2385" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<text x="0.254" y="52.705" size="1.778" layer="47" font="vector" ratio="15">All units in inches.</text>
-<dimension x1="0" y1="0" x2="6.223" y2="10.668" x3="-2.54" y3="5.334" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="0" y1="0" x2="3.81" y2="25.4" x3="-6.35" y3="12.7" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="2.54" y1="33.02" x2="82.55" y2="33.02" x3="42.545" y3="44.45" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<text x="36.83" y="-33.02" size="1.778" layer="51" font="vector" ratio="15">Priyanka Makin</text>
+<dimension x1="80.01" y1="35.56" x2="80.01" y2="0" x3="97.79" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<text x="44.704" y="40.005" size="1.778" layer="47" font="vector" ratio="15">All units in inches.</text>
 <dimension x1="0" y1="35.56" x2="85.09" y2="35.56" x3="42.545" y3="48.26" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="0" y1="35.56" x2="22.86" y2="35.56" x3="11.43" y3="36.83" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="35.56" x2="22.86" y2="35.56" x3="11.43" y3="41.91" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <wire x1="58.801" y1="24.13" x2="62.611" y2="24.13" width="0.254" layer="21"/>
 <wire x1="62.611" y1="24.13" x2="64.516" y2="24.13" width="0.254" layer="21"/>
 <wire x1="64.516" y1="24.13" x2="66.421" y2="24.13" width="0.254" layer="21"/>
@@ -239,10 +234,25 @@
 <wire x1="68.199" y1="24.003" x2="68.199" y2="11.43" width="0.254" layer="21"/>
 <wire x1="70.104" y1="24.13" x2="70.104" y2="11.43" width="0.254" layer="21"/>
 <wire x1="56.515" y1="17.78" x2="72.39" y2="17.78" width="0.254" layer="21"/>
-<dimension x1="66.04" y1="17.78" x2="0" y2="17.78" x3="33.02" y3="40.64" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="66.04" y1="17.78" x2="66.04" y2="0" x3="92.71" y3="8.89" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="40.64" y1="5.08" x2="0" y2="5.08" x3="20.32" y3="-3.81" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="48.768" y1="4.572" x2="0" y2="4.445" x3="24.415425" y3="-7.559725" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="40.64" y1="5.08" x2="0" y2="5.08" x3="20.32" y3="-17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="22.86" y1="34.29" x2="25.4" y2="34.29" x3="24.13" y3="41.91" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="52.07" y1="7.62" x2="85.09" y2="7.62" x3="68.58" y3="-11.43" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="55.88" y1="7.62" x2="85.09" y2="7.62" x3="70.485" y3="-7.62" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="55.88" y1="7.62" x2="76.2" y2="7.62" x3="66.04" y3="-3.81" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="76.2" y1="6.35" x2="76.2" y2="29.21" x3="91.44" y3="17.78" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="76.2" y1="29.21" x2="76.2" y2="35.56" x3="93.98" y3="32.385" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="48.768" y1="4.572" x2="0" y2="4.572" x3="24.384" y3="-21.59" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="31.75" y1="2.54" x2="0" y2="2.54" x3="15.875" y3="-13.97" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="11.938" y1="3.302" x2="11.938" y2="0" x3="-3.81" y3="1.651" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="23.495" y1="0.762" x2="0" y2="0.762" x3="11.7475" y3="-10.16" textsize="1.778" layer="47" unit="inch" precision="3"/>
+<dimension x1="14.859" y1="0.762" x2="0" y2="0.762" x3="7.4295" y3="-3.81" textsize="1.778" layer="47" unit="inch" precision="3"/>
+<dimension x1="1.27" y1="19.685" x2="1.27" y2="17.145" x3="-12.7" y3="18.415" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="1.27" y1="19.685" x2="1.27" y2="35.56" x3="-8.89" y3="27.6225" textsize="1.778" layer="47" unit="inch" precision="3"/>
+<dimension x1="2.54" y1="33.02" x2="0" y2="33.02" x3="1.27" y3="38.1" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="82.55" y1="33.02" x2="85.09" y2="33.02" x3="83.82" y3="44.45" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="82.55" y1="33.02" x2="82.55" y2="35.56" x3="88.9" y3="34.29" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="25.4" x2="2.54" y2="35.56" x3="-3.81" y3="30.48" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="5.842" y1="10.668" x2="5.842" y2="35.56" x3="-16.51" y3="23.114" textsize="1.778" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -16019,9 +16029,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </pass>
 </autorouter>
 <elements>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="8.89" y="-21.59" smashed="yes">
-<attribute name="DESIGNER" value="" x="8.89" y="-21.59" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="REV" value="" x="8.89" y="-21.59" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="8.89" y="-33.02" smashed="yes">
+<attribute name="DESIGNER" value="" x="8.89" y="-33.02" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="REV" value="" x="8.89" y="-33.02" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" package="USB-C-16P-2LAYER-PADS" value="" x="6.223" y="10.668" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.683" y="10.668" size="0.762" layer="25" rot="R270" align="center"/>
